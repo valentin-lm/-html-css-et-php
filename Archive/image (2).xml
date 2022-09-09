@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 5.1.1
+- https://www.phpmyadmin.net
+-
+- Hôte : 127.0.0.1:3306
+- Généré le : jeu. 23 juin 2022 à 15:53
+- Version du serveur : 5.7.36
+- Version de PHP : 7.4.26
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="image" collation="utf8mb4_unicode_ci" charset="utf8mb4">
+            <pma:table name="image">
+                CREATE TABLE `image` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `image` varchar(150) NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=27 DEFAULT CHARSET=latin1;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Base de données : 'image'
+    -->
+    <database name="image">
+        <!-- Table image -->
+        <table name="image">
+            <column name="id">21</column>
+            <column name="image">focu-sc_ontactrsonaphotojpg_1654879214.jpg</column>
+        </table>
+        <table name="image">
+            <column name="id">22</column>
+            <column name="image">focu-sc_ontactrsonaphotojpg_1654879499.jpg</column>
+        </table>
+        <table name="image">
+            <column name="id">23</column>
+            <column name="image">pexels-lumn-167699jpg_1655904229.jpg</column>
+        </table>
+        <table name="image">
+            <column name="id">24</column>
+            <column name="image">_1655904746.</column>
+        </table>
+        <table name="image">
+            <column name="id">25</column>
+            <column name="image">pexels-aleksandar-pasaric-325185jpg_1655904756.jpg</column>
+        </table>
+        <table name="image">
+            <column name="id">26</column>
+            <column name="image">pexels-aleksandar-pasaric-325185jpg_1655904825.jpg</column>
+        </table>
+    </database>
+</pma_xml_export>
